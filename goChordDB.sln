@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "goChord.Database", "goChord.Database\goChord.Database.sqlproj", "{2B010A99-ED96-4793-B66A-07B72F9292D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B010A99-ED96-4793-B66A-07B72F9292D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40396EA7-2BBE-4559-8CB8-2FFC57773C03}
+	EndGlobalSection
+EndGlobal
