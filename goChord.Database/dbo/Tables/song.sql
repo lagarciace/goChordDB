@@ -9,3 +9,7 @@
     CONSTRAINT [PK_song] PRIMARY KEY CLUSTERED ([songId] ASC)
 );
 
+
+GO
+
+CREATE UNIQUE INDEX [UX_song_Code] ON [dbo].[song] ([code])
