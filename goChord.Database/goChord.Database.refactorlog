@@ -189,6 +189,20 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="version" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="5b16d426-c911-4d99-b467-054197d530fd" ChangeDateTime="10/12/2018 20:55:17">
+    <Property Name="ElementName" Value="[dbo].[song].[IX_song_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[song]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[UX_song_Column]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e280c8ca-2262-434d-8932-a42c87404b4f" ChangeDateTime="10/12/2018 20:55:34">
+    <Property Name="ElementName" Value="[dbo].[song].[UX_song_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[song]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[UX_song_Code]" />
+  </Operation>
   <Operation Name="Rename Refactor" Key="9e0e8ce8-49b6-4c9d-a267-1a8f321837df" ChangeDateTime="10/17/2018 16:53:18">
     <Property Name="ElementName" Value="[dbo].[category].[Id]" />
     <Property Name="ElementType" Value="SqlSimpleColumn" />
