@@ -203,4 +203,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[UX_song_Code]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="9e0e8ce8-49b6-4c9d-a267-1a8f321837df" ChangeDateTime="10/17/2018 16:53:18">
+    <Property Name="ElementName" Value="[dbo].[category].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[category]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="categoryId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="994451e6-7752-4cd8-adda-b48f1424451b" ChangeDateTime="10/17/2018 17:20:08">
+    <Property Name="ElementName" Value="[dbo].[categoriesBySong].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[categoriesBySong]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CategoriId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f1a6597-e675-4618-96c3-893e8f45e603" ChangeDateTime="10/17/2018 17:20:22">
+    <Property Name="ElementName" Value="[dbo].[categoriesBySong].[CategoriId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[categoriesBySong]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="categoriesBySongId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2652b25f-1f91-4359-9e58-0ff8b8defe73" ChangeDateTime="10/17/2018 17:20:58">
+    <Property Name="ElementName" Value="[dbo].[categoriesBySong].[ca]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[categoriesBySong]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="categoryId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b22a7aa7-0c5f-401f-a0ce-584645c73832" ChangeDateTime="10/18/2018 00:45:51">
+    <Property Name="ElementName" Value="[dbo].[category].[categoryName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[category]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="name" />
+  </Operation>
 </Operations>

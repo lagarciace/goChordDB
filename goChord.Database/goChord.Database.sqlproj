@@ -25,7 +25,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>Modern_Spanish_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
-    <DacVersion>1.0.2.0</DacVersion>
+    <DacVersion>1.0.1.1</DacVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -69,6 +69,8 @@
     <Build Include="dbo\Tables\user.sql" />
     <Build Include="dbo\Tables\songsBySongbook.sql" />
     <Build Include="dbo\Tables\songbooksByUser.sql" />
+    <Build Include="dbo\Tables\category.sql" />
+    <Build Include="dbo\Tables\categoriesBySong.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="goChord.Database.refactorlog" />
