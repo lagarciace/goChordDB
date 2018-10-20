@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[categoriesBySong]
+﻿CREATE TABLE [dbo].[CategoriesBySong]
 (
 	[categoriesBySongId] INT NOT NULL  IDENTITY, 
     [songId] INT NOT NULL,

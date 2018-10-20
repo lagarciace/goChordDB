@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[songbookbyuser]
+﻿CREATE TABLE [dbo].[SongbookByUser]
 (
 	[songbooksByUserId] INT NOT NULL PRIMARY KEY IDENTITY, 
     [userId] INT NOT NULL, 

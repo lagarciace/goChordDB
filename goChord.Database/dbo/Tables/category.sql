@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[category]
+﻿CREATE TABLE [dbo].[Category]
 (
 	[categoryId] INT NOT NULL  IDENTITY, 
     [name] VARCHAR(100) NOT NULL, 
